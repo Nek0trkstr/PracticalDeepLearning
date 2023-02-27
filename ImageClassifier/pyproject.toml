@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "broccoliclassifier"
+version = "0.1.0"
+description = ""
+authors = ["Michael Shebeko <mshebeko@twistbioscience.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastai = "^2.7.11"
+gradio = "^3.19.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
